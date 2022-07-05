@@ -1,0 +1,782 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+// roboto
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+// Brian
+@font-face {
+    font-family: Audiowide;
+    src: url("../fonts/Audiowide-Regular.ttf");
+}
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/Raleway-Light.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    &:hover {
+        color: inherit !important;
+    }
+}
+body {
+    background-image: url("../image/Webpage-banner.webp");
+    background-repeat: repeat-y;
+    font-family: Raleway;
+    background-size: cover;
+    overflow-x: hidden;
+    cursor: url("../image/Cursor_img.png"), auto;
+}
+// banner
+.rockey_banner {
+    background-image: url("../image/Flames-BG.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-size: 100% 100%;
+    padding-top: 30px;
+    .rocketry_banner_left {
+        p {
+            font-size: 22px;
+            margin-top: 1.5rem;
+            margin-left: 71px;
+        }
+        h1 {
+            font-size: 55px;
+            margin: 30px 0 22px 0;
+        }
+        img {
+            width: 70%;
+        }
+        font-family: Raleway;
+        color: #fff;
+        .vista_logo {
+            width: 20%;
+        }
+    }
+    .Madhvan_img_banner {
+        img {
+            width: 100%;
+        }
+    }
+}
+.why_wait {
+    background-image: url("../image/tr.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    h2 {
+        font-family: Audiowide;
+        font-size: 80px;
+    }
+    h4 {
+        font-family: Raleway;
+        font-size: 46px;
+        text-align: center;
+    }
+    h1 {
+        font-family: Audiowide;
+        font-size: 100px;
+        color: #ffbd00;
+    }
+    h3 {
+        font-family: Raleway;
+        text-align: right;
+        font-size: 46px;
+        padding-right: 18px;
+    }
+    .ticket_rocketry_v2 {
+        text-align: center;
+        margin: 0 auto;
+        img {
+            width: 50%;
+        }
+    }
+    .why_wait_right_content {
+        font-family: Raleway;
+        width: 50%;
+        margin-left: 3.5rem;
+        padding-top: 15px;
+        p {
+            font-size: 20px;
+            width: 90%;
+            img {
+                width: 3%;
+            }
+        }
+        h5 {
+            font-size: 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #ffbd00;
+        }
+        .ticket_area {
+            display: flex;
+            padding: 30px 0 22px 0;
+            .ticket_rocketry {
+                img {
+                    width: 70%;
+                    position: relative;
+                    left: -40px;
+                }
+            }
+        }
+    }
+}
+// banner end
+
+.movie_ticket_area {
+    .row {
+        align-items: center;
+        .col-md-6 {
+            display: flex;
+            justify-content: center;
+        }
+        .free_new_section {
+            .hamper {
+                .col-md-5 {
+                    .hamper_img {
+                        width: 80%;
+                        animation: shakebody linear 6s infinite;
+                    }
+                }
+                .col-md-7 {
+                    .free_nftGrp {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+            color: #fff;
+            .free_nfts_heading {
+                width: 22%;
+            }
+            h1 {
+                font-family: Audiowide;
+                color: #ffbd00;
+                margin-left: 40px;
+            }
+            .free_new_section_icon {
+                margin: 2rem 0 2rem 0;
+                display: flex;
+                justify-content: space-evenly;
+                .icons {
+                    width: 20%;
+                    img {
+                        width: 90%;
+                        height: 180px;
+                        object-fit: contain;
+                        animation: shakebody_icons linear 6s infinite;
+                        // margin-right: 2rem;
+                    }
+                    p {
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .free_new_section_launching_soon {
+            text-align: center;
+            a {
+                color: #ffbd00;
+                text-transform: uppercase;
+                font-size: 22px;
+                font-weight: bold;
+            }
+            h4 {
+                margin: 1rem 0 1rem 0;
+            }
+        }
+    }
+    h2 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 40px;
+        // margin-bottom: 2rem;
+    }
+    .free_movie_ticket_chair {
+        animation: shakebody linear 6s infinite;
+    }
+    ul {
+        margin: 2rem 0;
+        /* margin: 0 auto; */
+        text-align: left;
+        margin-top: 2rem;
+        width: 100%;
+        li {
+            color: #fff;
+            margin-top: 45px;
+            font-size: 34px;
+            font-weight: bold;
+            img {
+                width: 7%;
+            }
+            a {
+                color: #ffbd00;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+// rocket banner
+.rocket_banner {
+    h2 {
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        top: 0;
+        text-transform: uppercase;
+    }
+    .join_whitelistArea {
+        justify-content: center;
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+    }
+    .rocket_email_box {
+        // background-image: url("../image/Rocket-Search-Icon.png");
+        // background-position: right center;
+        // background-repeat: no-repeat;
+        width: 50%;
+        // background-size: contain;
+        // height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // animation: shakebody_r_madhavan linear 6s infinite;
+        input[type="email"] {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ccc;
+            &::placeholder {
+                text-align: center;
+            }
+        }
+    }
+    .rocket_email_submit_fire {
+        background-image: url("../image/Rocket-Flame-Icon.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        width: 13%;
+        background-size: contain;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // animation: shakebody_r_madhavan linear 6s infinite;
+        input[type="submit"] {
+            background: transparent;
+            color: #000;
+            border: none;
+            transition: 0.3s all;
+            font-weight: bold;
+            &:hover {
+                background-color: transparent;
+                color: #fff;
+            }
+        }
+    }
+}
+// rocket banner end
+
+// limited_addition
+.limited_addition {
+    img {
+        width: 60%;
+        // animation: shakebody linear 6s infinite;
+    }
+    .col-md-7 {
+        display: flex;
+        align-items: center;
+        .limited_additionRightContent {
+            width: 70%;
+            h2 {
+                color: #ffbd00;
+            }
+            p {
+                font-size: 22px;
+            }
+        }
+    }
+}
+// limited_addition //
+
+// Vikram_Trailer
+.Vikram_Trailer {
+    img {
+        width: 50%;
+        margin: 0 auto;
+    }
+    h1 {
+        color: #ffbd00;
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+// Vikram_Trailer //
+
+// cast
+.cast {
+    text-align: center;
+    .image_wrap {
+        width: inherit;
+    }
+    img {
+        width: 80%;
+    }
+    .r_madhvan {
+        animation: shakebody_r_madhavan linear 6s infinite;
+    }
+    .srkImage {
+        animation: shakebody_srk linear 6s infinite;
+    }
+    h4,
+    h1 {
+        color: #ffbd00;
+    }
+}
+// cast //
+
+// synopsis
+.synopsis {
+    color: #fff;
+    margin-top: 4rem;
+    .synopsis_logo {
+        width: 20%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .mask_image {
+        width: 90%;
+        animation: shakebody linear 6s infinite;
+    }
+    p {
+        line-height: 2;
+        font-size: 20px;
+        text-align: center;
+    }
+    h1 {
+        color: #ffbd00;
+        text-align: center;
+        font-family: Audiowide;
+        text-transform: uppercase;
+    }
+    .video_bg {
+        background-image: url("../image/Video-Frame-yellow.png");
+        background-repeat: no-repeat;
+        height: 550px;
+        background-size: 100% 100%;
+        margin: 0 auto;
+        text-align: center;
+        z-index: -99999999;
+        display: flex;
+        align-items: stretch;
+    }
+    video {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+// synopsis //
+
+// nfts
+.nfts {
+    margin-top: 3rem;
+    .nft_area {
+        display: flex;
+        justify-content: space-evenly;
+        .nft_rockets {
+            text-align: center;
+            color: #fff;
+            img {
+                width: 100%;
+                height: 460px;
+                object-fit: contain;
+                border: 2px solid #ffbd00;
+                border-radius: 10px;
+            }
+            video {
+                width: 345px;
+                height: auto;
+                border: 2px solid #ffbd00;
+                border-radius: 10px;
+            }
+            h5 {
+                color: #ffbd00;
+            }
+            p {
+                font-style: italic;
+            }
+        }
+    }
+    h1 {
+        color: #ffbd00;
+        text-align: center;
+        font-family: Audiowide;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        span {
+            text-transform: lowercase;
+        }
+    }
+    .col-md-4 {
+        color: #fff;
+        text-align: center;
+        .nft_rockets {
+            img {
+                width: auto;
+                height: 400px;
+            }
+        }
+        p {
+            width: 40%;
+            margin: 0 auto;
+        }
+    }
+}
+// nfts //
+
+// Virtual_land
+.Virtual_land {
+    color: #fff;
+    width: 54%;
+    text-align: center;
+    margin: 0 auto;
+    h1 {
+        color: #ffbd00;
+        text-align: center;
+        margin-bottom: 1rem;
+        font-family: Audiowide;
+        text-transform: uppercase;
+    }
+    img {
+        // width: 50%;
+        margin-top: 2rem;
+        border: 2px solid #ffbd00;
+        border-radius: 10px;
+    }
+}
+// Virtual_land//
+
+footer {
+    // background-color: #000;
+    background-image: url("../image/Footer-Banner.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px 0;
+    position: relative;
+    .ftr_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .t_cHeading {
+            color: #ffbd00;
+            text-align: center;
+            margin-bottom: 1rem;
+            font-family: Audiowide;
+            text-transform: uppercase;
+        }
+        .tcApply {
+            width: 50%;
+            // text-align: center;
+            height: 300px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            margin-bottom: 3rem;
+            border: 2px solid #ffbd00;
+            border-radius: 5px;
+            padding: 20px;
+            p {
+                i {
+                    a {
+                        color: #ffbd00;
+                    }
+                }
+            }
+            .tcApply_ul {
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+                li {
+                    text-align: left;
+                    margin-bottom: 12px;
+                    display: flex;
+                    span {
+                        img {
+                            width: 25px;
+                        }
+                    }
+                    a {
+                        color: #ffbd00;
+                    }
+                }
+            }
+        }
+        h2 {
+            color: #fff;
+        }
+        button {
+            background: #ffbd00;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px solid #ffbd00;
+            margin: 10px 0 60px 0;
+            transition: 0.3s all;
+            font-weight: bold;
+            &:hover {
+                background: transparent;
+                color: #fff;
+            }
+        }
+        ul {
+            display: flex;
+            li {
+                margin-right: 0;
+                text-align: center;
+                a {
+                    img {
+                        width: 40%;
+                        transition: 0.3s all;
+                        height: 95px;
+                        object-fit: contain;
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+                :last-child {
+                    margin-right: none;
+                }
+            }
+        }
+    }
+    .rocket_ftr {
+        .rocket_image {
+            position: absolute;
+            bottom: 73px;
+            width: 10%;
+            animation: shakebody linear 6s infinite;
+        }
+    }
+}
+// Animation
+@keyframes shakebody {
+    0% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(-30px);
+    }
+}
+@keyframes shakebody_icons {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes shakebody_r_madhavan {
+    0% {
+        transform: translateX(-20px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+}
+@keyframes shakebody_srk {
+    0% {
+        transform: translateX(20px);
+    }
+    50% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(20px);
+    }
+}
+
+.virtual_land_image img {
+    border: none;
+    animation: shakebody linear 6s infinite;
+    width: 50%;
+}
+.ticket_area_arrow {
+    width: 7% !important;
+}
+
+.whitelisr_form_new {
+    button {
+        background: #ffbd00;
+        padding: 10px 30px;
+        border-radius: 10px;
+        font-weight: bold;
+        width: 20%;
+        border: 1px solid #ffbd00;
+        transition: 0.3s all;
+        font-family: Audiowide;
+        font-size: 22px;
+        text-transform: uppercase;
+        &:hover {
+            background: transparent;
+            border: 1px solid #ffbd00;
+            color: #fff;
+        }
+    }
+    text-align: center;
+    input[type="email"] {
+        background: transparent;
+        border: none;
+        border: 2px solid #ffbd00;
+        color: #fff;
+        border-radius: 30px;
+        padding: 10px 20px;
+        width: 60%;
+        outline: none;
+    }
+    input[type="submit"] {
+        background: #ffbd00;
+        border: none;
+        border: 2px solid #ffbd00;
+        color: #000;
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-weight: bold;
+        transition: 0.3s all;
+        outline: none;
+        &:hover {
+            background-color: transparent;
+            color: #fff;
+        }
+    }
+}
+.thank_you {
+    img {
+        width: 12%;
+    }
+    h1 {
+        color: #ffbd00;
+        font-weight: bold;
+        margin: 10px 0 20px 0;
+    }
+
+    video {
+        width: 80%;
+        border-radius: 10px;
+        border: 5px solid #ffbd00;
+    }
+    .video_bg {
+        h4 {
+            color: #ffbd00;
+        }
+    }
+}
+.reliase {
+    text-align: center;
+    width: 70%;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.hamper_img_thankYou {
+    width: 30% !important;
+    animation: shakebody linear 6s infinite;
+    margin: 20px 0;
+}
+
+// scrollBar
+/* width */
+.tcApply::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.tcApply::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.tcApply::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.tcApply::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+// Scrollbar end
+.press {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    font-size: 28px;
+    a {
+        color: #fff;
+        transition: 0.3s all;
+        &:hover {
+            color: #ffbd00 !important;
+        }
+    }
+}
+.partnership_video {
+    margin: 0 auto;
+    text-align: center;
+    video {
+        width: 50%;
+    }
+}
+.claimed {
+    margin: 8rem 0 3rem 0;
+    text-align: center;
+    color: #fff;
+    h1 {
+        color: #ffbd00;
+        text-align: center;
+        font-family: Audiowide;
+        text-transform: uppercase;
+    }
+    h4 {
+        a {
+            color: #ffbd00;
+        }
+    }
+    h5 {
+        a {
+            color: #ffbd00;
+            transition: 0.3s all;
+        }
+    }
+    img {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        animation: shakebody linear 6s infinite;
+    }
+}

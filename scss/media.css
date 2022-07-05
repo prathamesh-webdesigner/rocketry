@@ -1,0 +1,229 @@
+@media only screen and (max-width: 768px) {
+    .limited_addition img, .Vikram_Trailer img, .nfts .col-md-3 p, .Virtual_land, .Virtual_land img, footer .ftr_content ul li a img, .movie_ticket_area ul, .movie_ticket_area .row .free_new_section .free_new_section_icon .icons, .movie_ticket_area .hamper, .reliase, footer .ftr_content .tcApply, .partnership_video video {
+        width: 100%;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .rockey_banner .bannerContent {
+        width: 100%;
+        margin-top: 2.5rem;
+        text-align: center;
+    }
+
+    .rockey_banner {
+        background-size: cover;
+        height: auto;
+    }
+
+    .limited_addition .col-md-7 .limited_additionRightContent {
+        width: 100%;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .synopsis .synopsis_logo {
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+
+    /* .synopsis h1{
+        text-align: center;
+    } */
+    .rocket_banner form .rocket_email_box {
+        width: 60%;
+        background-size: 100% 20%;
+    }
+
+    .rocket_banner form .rocket_email_submit_fire {
+        width: 30%;
+        font-size: 12px;
+    }
+
+    input[type="email"]::placeholder {
+        font-size: 12px;
+    }
+
+    .rocketry_banner_left {
+        text-align: center;
+    }
+
+    .rockey_banner .rocketry_banner_left h1 {
+        font-size: 26px;
+    }
+
+    .why_wait h2 {
+        font-size: 42px;
+    }
+
+    .why_wait h4 {
+        font-size: 26px;
+    }
+
+    .why_wait h1 {
+        font-size: 58px;
+    }
+
+    .why_wait .why_wait_right_content p {
+        font-size: 18px;
+    }
+
+    .why_wait .why_wait_right_content h5 {
+        font-size: 22px;
+    }
+
+    .why_wait h3 {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .why_wait {
+        text-align: center;
+        background-size: cover;
+    }
+
+    .nfts {
+        margin-top: 2rem;
+    }
+
+    .synopsis {
+        margin-top: 0;
+    }
+
+    .rockey_banner .rocketry_banner_left .vista_logo {
+        width: 35%;
+    }
+
+    .nfts .col-md-3 img {
+        height: 60%;
+    }
+
+    .why_wait .why_wait_right_content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .rocket_banner h2 {
+        font-size: 18px;
+        top: -20px;
+        /* top: 4.5rem; */
+    }
+
+    .why_wait .why_wait_right_content .ticket_area .ticket_rocketry img {
+        left: 0;
+    }
+
+    .ticket_area_arrow {
+        width: 3% !important;
+    }
+
+    .synopsis .video_bg {
+        height: 140px;
+    }
+
+    footer {
+        background-size: cover;
+    }
+
+    footer .ftr_content ul li {
+        margin-right: 20px;
+    }
+
+    .rocket_banner form .row {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .movie_ticket_area .row .col-md-6 {
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    .movie_ticket_area .row .free_new_section .free_new_section_icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie_ticket_area .row .free_new_section .free_nfts_heading {
+        width: 50%;
+    }
+
+    .free_new_section {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .movie_ticket_area .row .free_new_section .free_new_section_icon .icons img {
+        width: 65%;
+    }
+
+    .rockey_banner .rocketry_banner_left p {
+        margin-left: 0;
+    }
+
+    .movie_ticket_area .row .free_new_section .hamper .col-md-7 .free_nftGrp {
+        flex-direction: column;
+    }
+
+    .movie_ticket_area .row .free_new_section h1 {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .movie_ticket_area ul li {
+        margin-top: 14px;
+        font-size: 18px;
+    }
+
+    .hamper {
+        margin: 0;
+    }
+
+    .movie_ticket_area ul li:first-child {
+        margin-top: 0;
+    }
+
+    .movie_ticket_area ul {
+        margin-top: 1rem;
+    }
+
+    .movie_ticket_area .row .free_new_section .hamper .col-md-5 .hamper_img {
+        margin-bottom: 2rem;
+    }
+
+    .nfts .nft_area .nft_rockets img, .nfts .nft_area .nft_rockets video {
+        width: 90%;
+        height: auto;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+
+    .thank_you video {
+        width: 100%;
+    }
+
+    .thank_you img {
+        width: 40%;
+    }
+
+    .hamper_img_thankYou {
+        width: 50% !important;
+    }
+
+    .whitelisr_form_new button, .claimed img {
+        width: 80%;
+    }
+
+    .rocket_banner .join_whitelistArea {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .claimed {
+        margin: 0 0 2rem 0;
+    }
+}
